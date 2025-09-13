@@ -6,4 +6,4 @@ Nome: Guilherme Luz da Silva
 Matricula: 1631670
 
 Print da tela da página criada (Curriculum Vitae)
-![Curriculum Vitae](public/currículo.png)
+![Curriculum Vitae](Downloads/programação/Git-GitHub/semana-2/public/currículo.png)
