@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul li{
+    list-style-type: disc;
+    display: block;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family:Arial, sans-serif;
+    display: flex;    
+}
+
+.sidebar {
+  background-color: #0d0366;
+  color: white;
+  width: 250px;rgb(59, 26, 65)rgb(30, 26, 65)rgb(27, 19, 105)
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height:100%;
+}.sidebar .foto {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+     margin-bottom: 15px;
+     border: 3px solid white;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+.sidebar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+.sidebar ul li a:hover {
+background: #0d0366 ;
+}
+.conteudo {
+    margin-left: 250px;
+    padding: 20px;
+}
+.cordeiro {
+    font-size: large;
+}
+#data {
+    font-style: italic;
+    color: rgb(58, 58, 58);
+}
+#sobre{
+    line-height: 200%;
+}
+.senai{
+    font-weight: bold;
+}
+.Aprendizagem{
+    font-size: medium;
+    line-height: 200%;
+}
